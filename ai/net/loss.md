@@ -99,12 +99,14 @@ $$L_\delta(y, \hat{y}) = \begin{cases}
 
 ##### 二分类交叉熵损失（Binary Cross-Entropy）
 - **用于**：二分类问题（如：是猫/不是猫）
-- **公式**：$$L = -\frac{1}{n}\sum_{i=1}^{n}[y_i \cdot \log(\hat{y}_i) + (1 - y_i) \cdot \log(1 - \hat{y}_i)]$$
+- **公式**：
+  \[ L = -\frac{1}{n} \sum_{i=1}^{n} \left[ y_i \cdot \log(\hat{y}_i) + (1 - y_i) \cdot \log(1 - \hat{y}_i) \right] \]
 - 其中 $\hat{y}_i$ 是模型预测样本为正类（是猫）的概率
 
 ##### 多分类交叉熵损失（Categorical Cross-Entropy）
 - **用于**：多分类问题（如：猫/狗/鸟）
-- **公式**：$$L = -\frac{1}{n}\sum_{i=1}^{n}\sum_{c=1}^{C}y_{i,c} \cdot \log(\hat{y}_{i,c})$$
+- **公式**：
+  \[ L = -\frac{1}{n} \sum_{i=1}^{n} \sum_{c=1}^{C} y_{i,c} \cdot \log(\hat{y}_{i,c}) \]
 - 其中 $C$ 是类别总数，$y_{i,c}$ 是一个**one-hot向量**（只有真实类别为1，其余为0），$\hat{y}_{i,c}$ 是模型预测的**经过Softmax后的概率分布**
 
 ##### 核心思想
