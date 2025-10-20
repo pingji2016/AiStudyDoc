@@ -24,6 +24,7 @@
 - 生成式AI技术详解：GNN与扩散模型 [查看说明文档](./gen-ai/gen.md)
 - 图神经网络（GNN）深度解析 [查看说明文档](./gen-ai/gnn.md)
 - Siamese网络详解：通过比较学习的神经网络 [查看说明文档](./gen-ai/siamase.md)
+- 扩散模型Stable Diffusion网络 [查看说明文档](./gen-ai/diffusion.md)
 
 ## 6. 神经网络基础
 - 激活函数详解：ReLU的革命性突破 [查看说明文档](./net/activtive.md)
@@ -36,3 +37,8 @@
 - Softmax与注意力机制：现代AI的核心组件 [查看说明文档](./net/softmax.md)
 - 学习率详解：深度学习优化的关键参数 [查看说明文档](./net/stady-rate.md)
 - 优化器详解：深度学习的策略大师 [查看说明文档](./net/youhuaqi.md)
+
+## 7. AI的计算机方向的应用
+- AI渲染
+- AI压缩
+- AI 3D建模
