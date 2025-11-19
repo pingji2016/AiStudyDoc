@@ -42,3 +42,10 @@
 - AI渲染
 - AI压缩
 - AI 3D建模
+
+## 8. AI端侧框架
+- executorch [查看说明文档](./edge/executorch.md)
+- mediaPipe [查看说明文档](./edge/executorch.md)
+- nnapi [查看说明文档](./edge/nnapi.md)
+- onnx [查看说明文档](./edge/onnx.md)
+- pytorchmobile [查看说明文档](./pt/pytorchmobile.md)
